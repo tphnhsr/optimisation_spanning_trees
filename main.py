@@ -749,7 +749,7 @@ for i in range(len(results)):
 nwx.draw(G, with_labels=True, edgelist=G_result.edges())
 plt.show()
 
-#list_files = os.listdir('/Users/typh/Documents/OPTU2S5/Instances/Spd_Inst_Rid_Final2/')
+#list_files = os.listdir('/Users/Documents/Optimisation/Instances/Spd_Inst_Rid_Final2/')
 #for i in range(3):
     #file = random.choice(list_files)
     #print(file)
