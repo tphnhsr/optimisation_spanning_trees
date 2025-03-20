@@ -681,7 +681,7 @@ def calcule_justesse(graphes, solutions, solveur):
 
 
 # Partie pour tester par apprentissage :
-list_files_all = os.listdir('/Users/typh/Documents/OPTU2S5/Instances/Spd_Inst_Rid_Final2/')
+list_files_all = os.listdir('/Users/Documents/Optimisation/Instances/Spd_Inst_Rid_Final2/')
 #on filtre pour enlever le fichier .DS_Store (sur mac...)
 list_files = [f for f in list_files_all if f.endswith('.txt')]
 # Calcule le nombre de graphes à sélectionner
